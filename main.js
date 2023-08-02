@@ -99,8 +99,8 @@ function myKeyDown(e)
 	{
 		if(ball_x >5)
 		{
-			if(ball_x <=5)
-		{
+			
+		
 			ball_x = ball_x - block_image_height;
 			console.log("Altura da imagem do bloco t = " + block_image_height);
 			console.log("Quando a tecla direcional esquerda é pressinada, X =  " + ball_x + " , X = "+ball_x);
@@ -113,15 +113,15 @@ function myKeyDown(e)
 	{
 		if(ball_x <=1050)
 		{
-			if(ball_x <=1050)
-		{
+		
+		
 			ball_x = ball_x + block_image_height;
 			console.log("Altura da imagem do bloco t = " + block_image_height);
 			console.log("Quando a tecla direcional direita é pressinada, X =  " + ball_x + " , X = "+ball_x);
 			canvas.remove(ball_obj);
 			newImage();
 		}
-		}
+		
 	}
 	
-}}
+}

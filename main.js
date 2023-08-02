@@ -73,13 +73,13 @@ function myKeyDown(e)
 	
 	function up()
 	{
-		if(ball_y <=450)
+		if(ball_y >=5)
 		{
 			ball_y = ball_y - block_image_height;
 			console.log("Altura da imagem do bloco t = " + block_image_height);
 			console.log("Quando a tecla direcional cima é pressinada, X =  " + ball_x + " , Y = "+ball_y);
 			canvas.remove_(ball_obj);
-			new_image();
+			newImage();
 		}
 	}
 
@@ -91,7 +91,7 @@ function myKeyDown(e)
 			console.log("Altura da imagem do bloco t = " + block_image_height);
 			console.log("Quando a tecla direcional baixo é pressinada, X =  " + ball_x + " , Y = "+ball_y);
 			canvas.remove_(ball_obj);
-			new_image();
+			newImage();
 		}
 	}
 
@@ -105,7 +105,7 @@ function myKeyDown(e)
 			console.log("Altura da imagem do bloco t = " + block_image_height);
 			console.log("Quando a tecla direcional esquerda é pressinada, X =  " + ball_x + " , X = "+ball_x);
 			canvas.remove_(ball_obj);
-			new_image();
+			newImage();
 		}
 	}
 
@@ -119,7 +119,7 @@ function myKeyDown(e)
 			console.log("Altura da imagem do bloco t = " + block_image_height);
 			console.log("Quando a tecla direcional direita é pressinada, X =  " + ball_x + " , X = "+ball_x);
 			canvas.remove_(ball_obj);
-			new_image();
+			newImage();
 		}
 		}
 	}

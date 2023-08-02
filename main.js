@@ -97,7 +97,7 @@ function myKeyDown(e)
 
 	function left()
 	{
-		if(ball_X >5)
+		if(ball_x >5)
 		{
 			if(ball_x <=5)
 		{
